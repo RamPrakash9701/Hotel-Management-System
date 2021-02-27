@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner-1,.banner-2,.banner-3,.banner-4,.banner-5,.banner-6,.banner-8
+{
+	min-height:500px;
+}
+.banner-1
+{
+	background:url(../image/banner-5.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.banner-2
+{
+	background:url(../image/banner-6.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.banner-3
+{
+	background:url(../image/banner-3.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.banner-4
+{
+	background:url(../image/banner-4.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.banner-5
+{
+	background:url(../image/banner-2.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.banner-6
+{
+	background:url(../image/banner-8.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+@media (min-width: 770px) {
+.banner-8
+{
+	background:url(../image/banner-9.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+}
+@media (max-width: 770px) {
+.banner-8
+{
+	background:url(../image/banner-9-m.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+}
+.info-placement
+{
+	background:url(../image/info-placement.jpg) no-repeat center;
+	background-size:cover;
+}
+.info-placement
+{
+	background:url(../image/info-placement.jpg) no-repeat center;
+	background-size:cover;
+}
+.info-result
+{
+	background:url(../image/info-result.jpg) no-repeat center;
+	background-size:cover;
+}
+.info-gallery
+{
+	background:url(../image/info-gallery.jpg) no-repeat center;
+	background-size:cover;
+}
+.info-admission
+{
+	background:url(../image/info-admission.jpg) no-repeat center;
+	background-size:cover;
+}
